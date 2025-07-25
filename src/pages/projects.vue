@@ -2,7 +2,7 @@
     <section class="max-w-5xl mx-auto space-y-10">
         <h1 class="text-3xl font-semibold">Projects</h1>
         <p class="text-gray-600">
-            A few things I've built or contributed to — personal tools, experiments, and work-in-progress ideas.
+            A few things I've built or contributed to: personal tools, experiments, and work-in-progress ideas.
         </p>
 
         <div class="grid gap-8 sm:grid-cols-2">
@@ -22,7 +22,7 @@
                     rel="noopener noreferrer"
                     class="text-blue-600 hover:underline text-sm"
                 >
-                    View on GitHub →
+                    View Project →
                 </NuxtLink>
             </div>
         </div>
@@ -32,27 +32,33 @@
 <script setup lang="ts">
     const projects = [
         {
-            name: "runner-config-generator",
-            description: "A type-safe configuration tool inspired by an internal automation runner. Built with TypeScript.",
-            language: "TypeScript",
-            url: "https://github.com/mentalfusion/runner-config-generator",
+            name: "specify",
+            description: "A developer-friendly suite of BDD tools built on Gherkin, Cucumber, and Selenium, with batteries-included step definitions / param types and support for adding your own.",
+            language: "Node.js / TypeScript / Cucumber",
+            url: "https://github.com/software-pirates/specify-core",
         },
         {
-            name: "coffeepot",
-            description: "Simple test project to expose a \"coffee pot\" endpoint for HTTP 418. Mostly for fun.",
-            language: "Go",
-            url: "https://github.com/mentalfusion/coffeepot",
+            name: "mmo-nomad",
+            description: "A blog and resource site for MMO gamers, featuring guides, news, and community content.",
+            language: "WordPress",
+            url: "https://mmo-nomad.com",
         },
         {
-            name: "rust-llama-playground",
-            description: "A tiny Rust playground for testing LLaMA-style inference libraries and tokenizers.",
-            language: "Rust",
-            url: "https://github.com/mentalfusion/rust-llama-playground",
+            name: "fusion-chat",
+            description: "A responsive, light-weight, and privacy-focused chat application that supports end-to-end encryption.",
+            language: "Next.js / TypeScript",
+            url: "https://github.com/MentalFusion/fusion-chat",
         },
         {
-            name: "portfolio-site",
-            description: "This site. Built with Nuxt 3 and Vue 3, featuring Tailwind and composition API.",
-            language: "Vue 3 / Nuxt",
+            name: "fusion-bb",
+            description: "Lightweight bulletin board system with a focus on simplicity and performance.",
+            language: "Laravel / PHP",
+            url: "https://github.com/MentalFusion/fusion-bb",
+        },
+        {
+            name: "portfolio",
+            description: "This site. Built with Nuxt 3 and Vue 3, featuring Tailwind, TypeScript, and composition API.",
+            language: "Vue 3 / Nuxt / TypeScript",
             url: "https://github.com/mentalfusion/portfolio",
         },
     ];

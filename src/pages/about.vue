@@ -10,7 +10,7 @@
 
         <p>
             I love clean code, thoughtful UI, and solving tough architectural problems. I also enjoy mentoring junior
-            developers and learning emerging technologies — especially in the AI/ML and automation space.
+            developers and learning emerging technologies.
         </p>
 
         <p>
